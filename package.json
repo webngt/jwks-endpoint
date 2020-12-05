@@ -1,0 +1,23 @@
+{
+  "name": "jwks-endpoint",
+  "version": "0.0.1",
+  "description": "JWKS endpoint",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "JWKS"
+  ],
+  "author": "Alexander Rozhdestvensky",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-jose": "^2.0.0"
+  }
+}
